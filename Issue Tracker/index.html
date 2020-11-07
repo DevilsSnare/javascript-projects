@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Issue Tracker</title>
+        <div id="headUp">Issue Tracker<span id="smallHead"> by devilssnare</span></div>
+        <br>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body onload="getIssue()">
+        <form id="inputForm">
+            <div id="headLow">Add new issue:</div>
+            <br>
+            <table class="alignG">
+                <tr>
+                <th id="des">Description: </th>
+                <th><input type="text" id="fetchDes" name="fetchDes" placeholder="describe the issue"></th>
+                </tr>
+                
+                <tr>
+                <th id="imp">Severity: </th>
+                <th>
+                <select id="fetchImp" name="fetchImp">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select></th>
+                </tr>
+
+                <tr>
+                <th id="ass">Assigned to: </th>
+                <th><input type="text" id="fetchAss" name="fetchAss" placeholder="person responsible"></th>
+                </tr>
+            </table>
+            <br>
+            <button type="submit">Add</button>
+            <br><br>
+        </form>
+        <div id="listIssues"></div>
+        <script src="http://chancejs.com/chance.min.js"></script>
+        <script src="/script.js"></script>
+    </body>
+</html>

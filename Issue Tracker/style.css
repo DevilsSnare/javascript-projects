@@ -1,0 +1,22 @@
+html {
+    font-family: monospace;
+}
+#headUp {
+    font-size: 35px;
+}
+#smallHead {
+    font-size: 20px;
+}
+#inputForm {
+    font-size: 15px;
+}
+#headLow {
+    font-size: 20px;
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0px;
+    text-align: left;
+}
