@@ -47,8 +47,8 @@ function getIssue() {
                                 '<th>Status: </th>' + '<td>' + status + '</td>' +
                                 '</tr>' +
                                 '</table>' +
-                                '<button onclick="closeIssue(\''+id+'\')">Close</button>' +
-                                '<button onclick="deleteIssue(\''+id+'\')">Delete</button>' + '<br><br>'
+                                '<button type="button" class="btn btn-danger" onclick="closeIssue(\''+id+'\')">Close</button>' +
+                                '<button type="button" class="btn btn-danger" onclick="deleteIssue(\''+id+'\')">Delete</button>' + '<br><br>'
     }
 }
 function saveIssue() {
